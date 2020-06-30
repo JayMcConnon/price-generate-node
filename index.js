@@ -1,10 +1,5 @@
-const axios = require('axios');
 const fs = require('fs');
 const prices = require('./prices.json');
-
-
-// Get prices from bitskins
-
 
 
 // Pull prices from prices.json
@@ -64,6 +59,6 @@ try {
   }
 }
 catch (err) {
-  // If it errors out, let us know, Could be permissions or something. 
+  // If it errors out, let us know, Could be permissions or something.
   console.error(err);
 }
